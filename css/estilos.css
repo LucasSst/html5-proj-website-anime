@@ -278,7 +278,7 @@ Animes
 
 
 #animes #principal{
-	height: 720px;
+	height: 100vh;
 }
 
 
@@ -386,6 +386,7 @@ footer{
 	text-align: center;
 	margin: 0 auto;
 	font-size: 0.8em;
+	
 }
 
 #lista-footer{
