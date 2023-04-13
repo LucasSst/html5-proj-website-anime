@@ -1,0 +1,416 @@
+/*Config. Geral*/
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	background: url(../img/fundo-100.png) repeat-x;
+	font-size: 12px;
+}
+
+#container{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/*Config. gerais do link*/
+
+ul{
+	list-style: none;
+
+}
+
+a:link, a:active, a:visited {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+a:hover{
+	color: #116499;
+}
+
+/*Config. header*/
+#logo{
+	background: url(../img/logo.png);
+	width: 248px;
+	height: 21px;
+	text-indent: -9000px;
+}
+
+/*Config. navegação*/
+nav ul{
+	padding: 0;
+	margin-bottom: 30px;
+	padding-bottom: 1px;
+
+}
+
+nav ul li {
+	float: left;
+
+}
+
+nav li a {
+	display: block;
+	padding: 10px 10px 11px 10px;
+}
+
+nav li a:hover {	
+	background: #f2f2f2;
+}
+
+
+/****************************************
+Dimenções do projeto (principal/aside)
+****************************************/
+
+#principal  {
+	background: #f2f2f2;
+	clear: both;
+	box-shadow: 0px 1px 10px  #ababab;
+	height: 1000px;
+}
+
+#principal #conteudo {
+	width: 670px ;/*680*/
+	background: #f7f7f7;
+	float: left;
+	height: 100%;
+}
+
+#principal aside{
+	width: 390px; /**/
+	background: #f2f2f2;
+	float: right;
+	margin: 0 10px 10px 10px;
+}
+
+
+
+
+/******************
+Lançamentos Aside
+******************/
+
+aside h2{
+	margin: 0;
+	padding: 20px;
+	font-size: 1em;
+}
+aside {
+	text-transform: uppercase;
+	text-align: center;
+	background: #f7f7f7;
+	
+}
+
+#lancamentos ul {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+aside #lancamentos p{
+	color: #c2c2c2;
+	width: 100%;
+	margin: 0px;
+	padding: 12px;	
+}
+
+aside #lancamentos p:hover{
+	color: #116499;
+}
+
+
+aside #lancamentos li{
+	padding: 10px 10px 0px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+aside #lancamentos li:hover{
+	background-color:#d2d2d2 ;
+	color: #116499;
+}
+
+
+aside #lancamentos img{
+	float: left;
+}
+
+
+
+/*******************
+Principal Coluna
+*******************/
+#sessao ul{
+	padding: 0;
+	margin: 0;
+}
+#sessao .coluna {
+	width: 150px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.coluna img:hover{
+	opacity: 0.6;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #0F7FC6;
+}
+
+.coluna{
+	display: flex;
+	flex-direction: row;
+	justify-items: space-between;
+}
+
+/*Distância de cada item*/
+ul.coluna li {
+	margin-left:10px ;
+
+}
+
+/*Transformações do Texto no principal*/
+#sessao h2{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	text-align: center;
+	color:  #0F7FC6;	
+	padding: 5px;
+	border-bottom: 1px solid #0F7FC6;
+	margin-top: 5px;
+	
+}
+
+.coluna p{
+	text-align: center;
+	margin: 1px 0 1px 0;
+	color: #116499;
+
+}
+
+.coluna p:hover{
+	color: skyblue;
+}
+
+p.episodio{
+	font-size: 0.8em;
+	color: #d2d2d2;
+	margin: 0;
+	padding: 0 0 3px 0;
+	border-bottom: 1px solid #0F7FC6;
+}
+
+/*Distância entre as ul*/
+#sessao .coluna1{
+	margin-top: 50px;
+}
+
+
+
+
+/***************************
+LAYOUT Aside2 (Melhores Usuários)
+
+
+********************************************/
+
+#container #principal aside #melhores-usuarios{	
+	margin:10px auto;
+	border: 1px solid #e3e3e3;
+	width: 360px;
+	padding: 0 15px 20px 15px;
+}
+
+aside #melhores-usuarios ul{
+ 	margin: 0;
+ 	padding: 0;
+
+}
+aside #melhores-usuarios img{
+	float: left;
+
+}
+
+/*Transformação da lista Aside2(Melhores Usuários)*/
+#container #principal aside #melhores-usuarios ul li{
+ 	border: 1px solid whitesmoke;
+ 	background: #f1f1f1;
+ 	padding: 6px 6px 43px 6px;
+ 	margin-bottom:5px;
+}
+#container #principal aside #melhores-usuarios ul li:hover{
+	background-color:#d2d2d2 ;
+	color: #116499;
+	padding-right: 13px;
+}
+
+
+
+/*Transformação do link Aside2(Melhores Usuários)*/
+aside #melhores-usuarios ul li a {
+	text-align: center;
+	color: #c2c2c2;
+
+}
+
+aside #melhores-usuarios ul li a:hover{
+	margin-top: 20px;
+	color:#116499;
+
+}
+
+
+
+
+
+
+
+/********************************************
+
+
+Animes
+
+
+*********************************************/
+/*LAYOUT principal*/
+
+
+#animes #principal{
+	height: 720px;
+}
+
+
+
+
+/*LAYOUT colunas*/
+#conteudo-animes .coluna1.coluna-animes{
+	margin-top: 200px;
+}
+
+
+#linha{
+	position: relative;
+}
+#conteudo-animes .linha{
+	clear: both;
+
+}
+
+#conteudo-animes .coluna1.coluna-animes li,
+#conteudo-animes .coluna li
+{
+	margin-left: 27px;
+}
+
+
+
+/*navegacao*/
+#navegacao-inferior{
+	margin-top: 230px;
+	
+}
+
+#navegacao-inferior ul li{
+	display: inline-block;
+}
+
+#navegacao-inferior ul li a {
+	color:black;
+
+}
+
+
+
+/*****************
+
+
+
+Gênero
+
+
+
+*****************/
+
+#genero #sessao li{
+	padding: 10px 10px 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#genero #sessao li:hover{
+	background-color:#d2d2d2 ;
+	color: #116499;
+}	
+
+#genero #sessao li a{
+	color: #116499;
+}
+
+#genero #sessao li a:hover{
+	color: skyblue;
+}
+
+
+#sobre #sessao h2{
+	font-size: 30px;
+	color: black;
+	border: none;
+}
+
+#sobre  #sessao p {
+font-size: 15px;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************
+Footer
+*****************/
+
+footer{
+	height: 75px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+#lista-footer{
+	width:540px ;
+	border: 1px solid #000;
+	margin: 0 auto;
+
+}
+
+footer ul {
+	padding: 5px 0  0;
+	margin: 10px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+footer ul li{
+	float: left;
+}
+
+footer li a {	
+	text-transform:uppercase ;
+}
+
+footer li a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+
